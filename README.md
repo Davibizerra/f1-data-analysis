@@ -1,4 +1,4 @@
-# 🏎️ Análise de Dados — Fórmula 1 (1950–2023)
+# 🏎️ Análise de Dados — Fórmula 1 (1950–2024)
 
 > Projeto de análise exploratória de dados utilizando Python, Pandas, Matplotlib e Seaborn sobre o histórico completo da Fórmula 1.
 
@@ -21,12 +21,26 @@ Este projeto tem como objetivo explorar o dataset histórico da Fórmula 1 para 
 
 ## 📊 Visualizações Geradas
 
-| Gráfico | Descrição |
-|--------|-----------|
-| `01_top10_pilotos_pontos.png` | Ranking dos pilotos com mais pontos acumulados |
-| `02_top10_equipes_vitorias.png` | Equipes com mais vitórias na história |
-| `03_hamilton_vs_verstappen.png` | Evolução de pontos por temporada — Hamilton vs Verstappen |
-| `04_nacionalidades_pilotos.png` | Países com mais pilotos na história da F1 |
+### 🏆 Top 10 Pilotos com Mais Pontos na História
+![Top 10 Pilotos](graficos/01_top10_pilotos_pontos.png)
+
+### 🏎️ Top 10 Equipes com Mais Vitórias
+![Top 10 Equipes](graficos/02_top10_equipes_vitorias.png)
+
+### ⚡ Hamilton vs Verstappen — Pontos por Temporada
+![Hamilton vs Verstappen](graficos/03_hamilton_vs_verstappen.png)
+
+### 🌍 Países com Mais Pilotos na História da F1
+![Nacionalidades](graficos/04_nacionalidades_pilotos.png)
+
+---
+
+## 🔍 Principais Insights
+
+- **Lewis Hamilton** lidera o ranking histórico de pontos, reflexo de sua longevidade e consistência na era híbrida da F1.
+- **Ferrari e McLaren** dominam o ranking de vitórias por equipe ao longo de toda a história do esporte.
+- A rivalidade **Hamilton vs Verstappen** ficou mais acirrada a partir de 2021, com Verstappen assumindo protagonismo crescente.
+- **Grã-Bretanha, EUA e Itália** são os países com mais pilotos representados na história da categoria.
 
 ---
 
@@ -47,6 +61,8 @@ f1-data-analysis/
 ├── f1_analysis.py        # Script principal de análise
 ├── requirements.txt      # Dependências do projeto
 ├── README.md             # Este arquivo
+├── .gitignore            # Arquivos ignorados pelo Git
+├── LICENSE               # Licença MIT
 │
 ├── graficos/             # Gráficos gerados automaticamente
 │   ├── 01_top10_pilotos_pontos.png
@@ -67,7 +83,7 @@ f1-data-analysis/
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/f1-data-analysis.git
+git clone https://github.com/Davibizerra/f1-data-analysis.git
 cd f1-data-analysis
 ```
 
@@ -92,21 +108,12 @@ Os gráficos serão salvos automaticamente na pasta `/graficos`.
 
 ---
 
-## 🔍 Principais Insights
-
-- **Lewis Hamilton** lidera o ranking histórico de pontos, reflexo de sua longevidade e consistência na era híbrida da F1.
-- **Ferrari e McLaren** dominam o ranking de vitórias por equipe ao longo de toda a história do esporte.
-- A rivalidade **Hamilton vs Verstappen** ficou mais acirrada a partir de 2021, com Verstappen assumindo protagonismo crescente.
-- **Grã-Bretanha, EUA e Itália** são os países com mais pilotos representados na história da categoria.
-
----
-
 ## 👤 Autor
 
 **Davi de Moraes Bizerra**  
 📧 davibizerra02@gmail.com  
 🎓 Sistemas de Informação — Faculdade Impacta  
-🔗 [LinkedIn](https://www.linkedin.com/in/davi-bizerra-9b00622ba/) | [GitHub](https://github.com/Davibizerra)
+🔗 [LinkedIn](https://linkedin.com/in/seu-perfil) | [GitHub](https://github.com/Davibizerra)
 
 ---
 
