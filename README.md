@@ -106,7 +106,7 @@ Os gráficos serão salvos automaticamente na pasta `/graficos`.
 **Davi de Moraes Bizerra**  
 📧 davibizerra02@gmail.com  
 🎓 Sistemas de Informação — Faculdade Impacta  
-🔗 [LinkedIn](https://linkedin.com/in/seu-perfil) | [GitHub](https://github.com/seu-usuario)
+🔗 [LinkedIn](https://www.linkedin.com/in/davi-bizerra-9b00622ba/) | [GitHub](https://github.com/Davibizerra)
 
 ---
 
