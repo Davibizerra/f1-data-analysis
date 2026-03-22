@@ -1,0 +1,36 @@
+# ── Dados brutos (baixar via Kaggle, não subir no repositório) ──
+*.csv
+*.xlsx
+*.json
+data/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Ambientes virtuais ──
+venv/
+.venv/
+env/
+.env
+
+# ── Jupyter Notebook ──
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Sistemas operacionais ──
+.DS_Store
+Thumbs.db
+
+# ── IDEs ──
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
